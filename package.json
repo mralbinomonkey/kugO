@@ -1,0 +1,42 @@
+{
+  "name": "plooshidocs",
+  "version": "2.0.0",
+  "description": "Plooshi docs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "install-webretro-linux": "chmod u+x ./webretro.sh && ./webretro.sh",
+    "install-webretro-win": "echo \"Error: not finshed\" && exit 1"
+  },
+  "files": [
+    "static",
+    "src",
+    ".gitignore",
+    "app.json",
+    ".replit",
+    "replit.nix",
+    "Procfile"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plooshi/Docs"
+  },
+  "keywords": [
+    "unoffical",
+    "ultraviolet",
+    "unblock",
+    "titaniumnetwork",
+    "bypass-filter",
+    "amethystnetwork-dev"
+  ],
+  "author": "guacaplushy",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^1.2.3",
+    "serve-static": "^1.15.0"
+  },
+  "engines": {
+    "npm": ">=8.0.0",
+    "node": ">=16.0.0"
+  }
+}
